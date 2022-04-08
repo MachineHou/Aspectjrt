@@ -1,8 +1,6 @@
 plugins {
     id 'com.android.application'
     id 'AspectPlugin'
-    id 'kotlin-android'
-    id 'maven-publish'
 }
 
 android {

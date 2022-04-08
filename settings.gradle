@@ -30,5 +30,6 @@ dependencyResolutionManagement {
         maven { url 'https://maven.aliyun.com/repository/public' }
     }
 }
+
 rootProject.name = "aspectjrt"
 include ':app'

@@ -1,4 +1,4 @@
-package com.machinehou.aspectjrt;
+package com.machinehou.aspectjrtlib;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

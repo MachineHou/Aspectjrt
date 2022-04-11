@@ -1,4 +1,4 @@
-package com.machinehou.aspectjrt;
+package com.machinehou.aspectjrtlib;
 
 
 import android.util.Log;
@@ -23,7 +23,7 @@ public class SingleClickAspect {
     /**
      * 方法切入点（改变成自己的包名）
      */
-    @Pointcut("execution(@com.machinehou.aspectjrt.SingleClick * *(..))")
+    @Pointcut("execution(@com.machinehou.aspectjrtlib.SingleClick * *(..))")
     public void method() {}
 
     /**

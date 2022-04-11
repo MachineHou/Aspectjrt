@@ -1,4 +1,4 @@
-package com.machinehou.aspectjrt;
+package com.machinehou.aspectjrtlib;
 
 import android.util.Log;
 

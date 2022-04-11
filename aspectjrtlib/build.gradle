@@ -2,10 +2,10 @@ apply plugin: 'com.android.library'
 apply plugin: 'AspectPlugin'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 32
     defaultConfig {
-        minSdkVersion 15
-        targetSdkVersion 28
+        minSdkVersion 21
+        targetSdkVersion 32
         versionCode 1
         versionName "1.0"
 
@@ -27,6 +27,6 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'org.aspectj:aspectjrt:1.9.6'
+    api 'org.aspectj:aspectjrt:1.9.6'
     implementation 'com.blankj:utilcodex:1.30.6'
 }
